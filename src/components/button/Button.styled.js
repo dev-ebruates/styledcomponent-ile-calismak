@@ -41,3 +41,10 @@ export const CoolButton = styled(StyledButton)`
   text-decoration: none;
   }
 `
+ //Attributes(Ek Özellik) Eklemek
+export const SubmitButton = styled(StrongButton).attrs({
+  type:"submit"
+})`
+font-size:"20px";
+color:"red";
+`
