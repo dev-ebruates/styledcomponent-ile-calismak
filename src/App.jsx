@@ -28,6 +28,7 @@ border-radius: 10px;
 const FaChildStyledIcon = styled(FaChildReaching)`
 font-size: 40px;
 animation: ${rotate} 3s linear infinite;
+color: ${(props)=>props.theme.colors.faChild}
 `
 //3sn infinite sonsuza kadar dönsün
 
@@ -49,11 +50,11 @@ function App() {
           incele
         </Button>
         <br/>
-        <StrongButton > strong button</StrongButton>
+        <StrongButton  $primary> strong button</StrongButton>
         <br/>
-        <CoolButton as ="a" href="http://google.com" target="_blank">coool</CoolButton>
+        <CoolButton  as ="a" href="http://google.com" target="_blank">coool</CoolButton>
         <br/>
-        <SubmitButton>
+        <SubmitButton $primary>
           Kaydet
         </SubmitButton>
       </StyledContainer>
