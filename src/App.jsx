@@ -28,7 +28,7 @@ border-radius: 10px;
 const FaChildStyledIcon = styled(FaChildReaching)`
 font-size: 40px;
 animation: ${rotate} 3s linear infinite;
-color: ${(props)=>props.theme.colors.faChild}
+color: ${(props)=>props.theme.faChild};
 `
 //3sn infinite sonsuza kadar dönsün
 
@@ -46,9 +46,9 @@ function App() {
         <hr/>
         <FaChildStyledIcon/>
         <h1>Styled container uygulandı</h1>
-        <Button $primary className="btn" style={{marginBottom : "5px"}}>
+        <Button $primary className="btn mr-50 " style={{marginBottom : "5px"}}>
           incele
-        </Button>
+        </Button> dfaskgşlsdkgaşsldgjas
         <br/>
         <StrongButton  $primary> strong button</StrongButton>
         <br/>
